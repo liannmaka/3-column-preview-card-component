@@ -1,0 +1,108 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background-color: var(--Very-light-gray);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+}
+
+p {
+    color: var(--Transparent-white);
+    font-family: 'lexend deca';
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 1.2rem;
+}
+
+.first {
+    background-color: var(--Bright-orange);
+}
+
+.second {
+    background-color: var(--Dark-cyan);
+}
+   
+.third {
+    background-color: var(--Very-dark-cyan);
+}
+
+h1 {
+    color: var(--Very-light-gray);
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    padding: 1.5rem 0;
+    font-size: 30px;
+}
+
+.learn a {
+    background-color: var(--Very-light-gray);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'lexend deca';
+    font-size: 12px;
+    text-decoration: none;
+    border: 1.9px solid var(--Very-light-gray);
+}
+
+.first a:hover {
+    background-color: var(--Bright-orange);
+    color: white;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.second a:hover {
+    background-color:  var(--Dark-cyan);
+    color: white;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.third a:hover {
+    background-color: var(--Very-dark-cyan);
+    color: white;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.learn {
+    margin-top: 60px;
+}
+
+.one a {
+    color: var(--Bright-orange);
+}
+
+.two a {
+    color: var(--Dark-cyan);
+}
+
+.three a {
+    color: var(--Very-dark-cyan);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0px auto;
+    background-color: blue;
+}
+
+.box {
+    width: 170px;
+    padding: 2em 2em 3.5em;
+}
+
