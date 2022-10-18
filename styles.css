@@ -98,11 +98,18 @@ h1 {
     border-radius: 6px;
     overflow: hidden;
     margin: 0px auto;
-    background-color: blue;
+    padding: 3rem 0;
 }
 
 .box {
     width: 170px;
     padding: 2em 2em 3.5em;
 }
+
+
+@media screen and (max-width: 768px) {
+    .main {
+      justify-content: center;
+    }
+  }
 
